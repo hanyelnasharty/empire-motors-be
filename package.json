@@ -1,0 +1,29 @@
+{
+  "name": "used-cars-gallerybe",
+  "version": "1.0.0",
+  "engines": {
+    "node": "18.14.0"
+  },
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanyelnasharty/used-cars-gallerybe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hanyelnasharty/used-cars-gallerybe/issues"
+  },
+  "homepage": "https://github.com/hanyelnasharty/used-cars-gallerybe#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3"
+  }
+}
