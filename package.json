@@ -2,7 +2,7 @@
   "name": "used-cars-gallerybe",
   "version": "1.0.0",
   "engines": {
-    "node": "18.14.0"
+    "node": "18.12.1"
   },
   "description": "",
   "main": "server.js",
