@@ -14,9 +14,6 @@ app.use(express.static('public'));
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
-app.get('/' , (req, res) => {
-    res.send('Hello World!');
-  });
 
 app.post('/cars', (req, res) => {
     Cars.create(req.body)
